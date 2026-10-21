@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Node / Vite build artifacts
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs (runtime outputs excluded; keep directory structure)
+*.log
+kpi-project/logs/*.log
+!kpi-project/logs/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.zip
